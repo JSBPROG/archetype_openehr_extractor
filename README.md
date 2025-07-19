@@ -43,13 +43,13 @@ Este proyecto proporciona una clase **Extractor** en Python para analizar archiv
 
 ## Ejemplo de uso básico
 
-`from extractor import Extractor`
+`from extractor import Extractor`  
 
-`extr = Extractor()`
-`extr.load_doc_list() # Carga todos los XML en 'data/'`
+`extr = Extractor()`  
+`extr.load_doc_list() # Carga todos los XML en 'data/'`  
 `extr.extract_all() # Procesa y extrae los datos`
-`extr.save_json_list() # Guarda 'output/data_from_xml.json'`
-`extr.generate_simplified_json() # Guarda 'output/simplified_data.json'`  
+`extr.save_json_list() # Guarda 'output/data_from_xml.json'`  
+`extr.generate_simplified_json() # Guarda 'output/simplified_data.json'`    
 
 
 ---
